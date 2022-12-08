@@ -4,6 +4,7 @@ Sample tests
 from django.test import SimpleTestCase
 from app.calc import add, subtract
 
+
 class CalcTests(SimpleTestCase):
     """Test the calc module."""
 
