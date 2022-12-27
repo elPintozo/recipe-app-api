@@ -41,10 +41,12 @@ BASE_APPS = [
 
 LOCAL_APPS =[
     'core',
+    'user',
 ]
 
 THIRD_APPS = [
     'rest_framework',
+    'rest_framework.authtoken',
     'drf_spectacular',
 ]
 
